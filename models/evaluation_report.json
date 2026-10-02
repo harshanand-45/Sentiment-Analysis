@@ -1,0 +1,63 @@
+{
+  "accuracy": 1.0,
+  "precision_weighted": 1.0,
+  "recall_weighted": 1.0,
+  "f1_weighted": 1.0,
+  "classification_report": {
+    "Negative": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 140.0
+    },
+    "Neutral": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 140.0
+    },
+    "Positive": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 140.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 420.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 420.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      140,
+      0,
+      0
+    ],
+    [
+      0,
+      140,
+      0
+    ],
+    [
+      0,
+      0,
+      140
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "train_samples": 1680,
+  "test_samples": 420
+}
